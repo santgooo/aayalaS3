@@ -9,7 +9,7 @@ namespace aayalaS3
         public App()
         {
             InitializeComponent();
-
+            //NAVEGACION
             MainPage = new NavigationPage(new Page1());
         }
 
