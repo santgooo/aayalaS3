@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aayalaS3.Page1">
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource stackLayouStyle}">
+            <Label Text="Semana 3 : ESTILOS 1" HorizontalTextAlignment="Center" FontSize="18" />
+
+            <Entry x:Name="txtDato1" Placeholder="Ingrese Un texto"></Entry>
+            <Entry x:Name="txtDato2" Placeholder="Ingrese un Numero" Keyboard="Numeric"></Entry>
+            <Button x:Name="btnAbrir" Text="Abrir Pagina" Clicked="btnAbrir_Clicked"></Button>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

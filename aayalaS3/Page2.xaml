@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aayalaS3.Page2">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="lableStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="TextColor" Value="Fuchsia"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ESTILO 2" Style="{StaticResource lableStyle}" />
+            <Label x:Name="lblDato1" Style="{StaticResource lableStyle}"/>
+            <Entry x:Name="txtDato2" IsEnabled="False"></Entry>
+            <Button x:Name="btnAbrir" Text="Abrir Ventana 3" Clicked="btnAbrir_Clicked"></Button>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

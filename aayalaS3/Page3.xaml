@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aayalaS3.Page3">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="TextColor" Value="Blue"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ESTILO 3" Style="{StaticResource lableStyle}"/>
+            <Label Text="SISTEMAS DE INFORMACION" Style="{StaticResource lableStyle}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
